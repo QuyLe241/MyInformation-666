@@ -14,12 +14,18 @@
 /*  Logo */
 .container .logo {
     border-radius: 50%;
+    color: aliceblue;
     border: rgba(4,82,245,1) solid 1px;
     font-size: 39px;
     /* padding: 20px; */
     padding: 5px 20px;
     box-shadow:3px 3px 10px;
     margin: 20px;
+}
+
+.container .logo:hover {
+    color: rgb(198, 204, 209);
+
 }
 
 /* Hover - nav-item */
@@ -87,7 +93,13 @@
 
 }
 
+.infor .infor_items {
+    height: 100px;
+    background-color: aliceblue;
 
+
+
+}
 
 
 
