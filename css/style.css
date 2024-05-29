@@ -104,11 +104,15 @@
 .infor .infor_items {
     height: 100px;
     background-color: aliceblue;
-
-
+    border-radius: 10px;
+    box-shadow: 6px 6px 10px rgb(179, 179, 183);
 
 }
 
+
+
+
+/*  footer */
 .contai_footer .footer_lists li {
     /* text-decoration: none; */
     color: aliceblue;
