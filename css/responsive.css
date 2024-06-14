@@ -97,7 +97,16 @@
 @media (max-width: 432px) {
     .navbar-toggler {
         /* left: 0; */
-        margin-left: 200px;
+        margin-left: 198px;
+        /* right: 0; */
+    }
+
+}
+
+@media (max-width: 395px) {
+    .navbar-toggler {
+        /* left: 0; */
+        margin-left: 165px;
         /* right: 0; */
     }
 
