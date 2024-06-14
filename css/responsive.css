@@ -20,6 +20,20 @@
 
 }
 
+@media (max-width: 500px) {
+    .container .infor .items_res .item_col1 {
+        width: 350px;
+        height: 150px;
+    }
+
+    .container .infor .items_res .item_col2 {
+        width: 350px;
+        height: 150px;
+    }
+
+
+}
+
 @media (max-width: 320px) {
     .container .infor .items_res .item_col1 {
         width: 290px;
