@@ -1,0 +1,35 @@
+@media (max-width: 1000px) {
+    /* Narbar */
+    .nav-item .active_1 {
+        color: rgb(255, 0, 0);
+
+    }
+
+    /* items */
+    .container .infor .items_res .item_col1 {
+        display: inline-block;
+        width: 450px;
+    }
+
+    .container .infor .items_res .item_col2 {
+        display: inline-block;
+        width: 450px;
+        margin-top: 50px;
+    }
+
+
+}
+
+@media (max-width: 320px) {
+    .container .infor .items_res .item_col1 {
+        width: 290px;
+        height: 150px;
+    }
+
+    .container .infor .items_res .item_col2 {
+        width: 290px;
+        height: 150px;
+    }
+
+}
+
