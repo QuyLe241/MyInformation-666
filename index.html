@@ -50,7 +50,7 @@
             id="navbarToggleExternalContent"
             data-bs-theme="dark"
           >
-            <div class="container-fluid">
+            <div class="container">
               <a class="logo" href="#"><i class="fa-solid fa-user"></i></a>
               <button
                 class="navbar-toggler"
@@ -63,6 +63,20 @@
               >
                 <span class="navbar-toggler-icon"></span>
               </button>
+
+              <!-- -- -->
+              <!-- <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button> -->
+              <!-- -- -->
               <div class="collapse navbar-collapse" id="navbarScroll">
                 <ul
                   class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
@@ -113,9 +127,6 @@
                       </li>
                     </ul>
                   </li>
-                  <!-- <li class="nav-item">
-                    <a class="nav-link disabled" aria-disabled="true">Link</a>
-                  </li> -->
                 </ul>
                 <form class="d-flex" role="search">
                   <input
@@ -127,6 +138,71 @@
                   <button class="btn btn-dark" type="submit">Search</button>
                 </form>
               </div>
+
+              <!-- -- -->
+              <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul
+                  class="navbar-nav ms-auto mb-2 mb-lg-0"
+                  style="--bs-scroll-height: 100vh"
+                >
+                  <li class="nav-item">
+                    <a
+                      class="nav-link active nav_links"
+                      aria-current="page"
+                      href="#"
+                      >Home</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link nav_links" href="#">Contact</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle nav_links"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      My Social
+                    </a>
+                    <ul class="dropdown-menu drop_menu">
+                      <li class="m-2">
+                        <a
+                          class="drop_items"
+                          href="https://www.facebook.com/profile.php?id=100087758182600"
+                          target="_blank"
+                          ><i class="fa-brands fa-facebook-f"></i
+                          ><span class="ms-2">Facebook</span></a
+                        >
+                      </li>
+                      <li class="m-2">
+                        <a class="drop_items" href="#"
+                          ><i class="fa-brands fa-github"></i
+                          ><span class="ms-2">Github</span></a
+                        >
+                      </li>
+                      <li class="m-2">
+                        <a class="drop_items" href="#"
+                          ><i class="fa-brands fa-tiktok"></i
+                          ><span class="ms-2">TikTok</span></a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                  
+                </ul>
+                <form class="d-flex" role="search">
+                  <input
+                    class="form-control me-2"
+                    type="search"
+                    placeholder="Search"
+                    aria-label="Search"
+                  />
+                  <button class="btn btn-dark" type="submit">Search</button>
+                </form>
+              </div> -->
+              <!-- -- -->
             </div>
           </nav>
         </div>
@@ -192,119 +268,126 @@
             </div>
           </div>
         </div>
-      </div>
-      <footer class="bd-footer py-4 py-md-5 mt-5">
-        <div class="container py-4 py-md-5 px-4 px-md-3 text-body-secondary">
-          <div class="row contai_footer">
-            <div class="col-lg-3 mb-3 des_by">
-              <a
-                class="d-inline-flex align-items-center mb-2 text-body-emphasis text-decoration-none"
-                href="#"
-              >
-                <span class="fs-5">Lê Nhất Quý</span>
-              </a>
-              <ul class="list-unstyled small footer_lists">
-                <li class="mb-2" style="color: rgb(0, 106, 255)">
-                  Designed and code By Lê Nhất Quý with Bootstrap 5, HTML, css
-                  and JavaScript.
-                </li>
-                <li class="mb-2">---</li>
-                <li class="mb-2">---</li>
-              </ul>
-            </div>
+        <!-- </div> -->
+        <footer class="bd-footer py-4 py-md-5 mt-5">
+          <div class="container py-4 py-md-5 px-4 px-md-3 text-body-secondary">
+            <div class="row contai_footer">
+              <div class="col-lg-3 mb-3 des_by">
+                <a
+                  class="d-inline-flex align-items-center mb-2 text-body-emphasis text-decoration-none"
+                  href="#"
+                >
+                  <span class="fs-5">Lê Nhất Quý</span>
+                </a>
+                <ul class="list-unstyled small footer_lists">
+                  <li class="mb-2" style="color: rgb(0, 106, 255)">
+                    Designed and code By Lê Nhất Quý with Bootstrap 5, HTML, css
+                    and JavaScript.
+                  </li>
+                  <li class="mb-2">---</li>
+                  <li class="mb-2">---</li>
+                </ul>
+              </div>
 
-            <!-- Links -->
-            <div class="col-6 col-lg-2 offset-lg-1 mb-3">
-              <h5 class="ms-3" style="color: rgb(187, 220, 248)">Links</h5>
-              <ul class="footer_lists">
-                <li class="mb-2"><a href="/">Home</a></li>
-                <li class="mb-2"><a href="#">Docs</a></li>
-                <li class="mb-2"><a href="#">Examples</a></li>
-                <li class="mb-2">
-                  <a href="#">Icons</a>
-                </li>
-                <li class="mb-2">
-                  <a href="#">Themes</a>
-                </li>
-                <li class="mb-2">
-                  <a href="#">Blog</a>
-                </li>
-                <li class="mb-2">
-                  <a href="#" target="_blank" rel="noopener">Swag Store</a>
-                </li>
-              </ul>
-            </div>
+              <!-- Links -->
+              <div class="col-6 col-lg-2 offset-lg-1 mb-3">
+                <h5 class="ms-3" style="color: rgb(187, 220, 248)">Links</h5>
+                <ul class="footer_lists">
+                  <li class="mb-2"><a href="/">Home</a></li>
+                  <li class="mb-2"><a href="#">Docs</a></li>
+                  <li class="mb-2"><a href="#">Examples</a></li>
+                  <li class="mb-2">
+                    <a href="#">Icons</a>
+                  </li>
+                  <li class="mb-2">
+                    <a href="#">Themes</a>
+                  </li>
+                  <li class="mb-2">
+                    <a href="#">Blog</a>
+                  </li>
+                  <li class="mb-2">
+                    <a href="#" target="_blank" rel="noopener">Swag Store</a>
+                  </li>
+                </ul>
+              </div>
 
-            <!-- Guides -->
-            <div class="col-6 col-lg-2 mb-3">
-              <h5 class="ms-3" style="color: rgb(187, 220, 248)">Guides</h5>
-              <ul class="footer_lists">
-                <li class="mb-2">
-                  <a href="#">Getting started</a>
-                </li>
-                <li class="mb-2">
-                  <a href="#">Starter template</a>
-                </li>
-                <li class="mb-2">
-                  <a href="#">Webpack</a>
-                </li>
-                <li class="mb-2">
-                  <a href="#">Parcel</a>
-                </li>
-                <li class="mb-2">
-                  <a href="#">Vite</a>
-                </li>
-              </ul>
-            </div>
+              <!-- Guides -->
+              <div class="col-6 col-lg-2 mb-3">
+                <h5 class="ms-3" style="color: rgb(187, 220, 248)">Guides</h5>
+                <ul class="footer_lists">
+                  <li class="mb-2">
+                    <a href="#">Getting started</a>
+                  </li>
+                  <li class="mb-2">
+                    <a href="#">Starter template</a>
+                  </li>
+                  <li class="mb-2">
+                    <a href="#">Webpack</a>
+                  </li>
+                  <li class="mb-2">
+                    <a href="#">Parcel</a>
+                  </li>
+                  <li class="mb-2">
+                    <a href="#">Vite</a>
+                  </li>
+                </ul>
+              </div>
 
-            <!-- Project -->
-            <div class="col-6 col-lg-2 mb-3">
-              <h5 class="ms-3" style="color: rgb(187, 220, 248)">Projects</h5>
-              <ul class="footer_lists">
-                <li class="mb-2">
-                  <a href="#" target="_blank" rel="noopener">Bootstrap 5</a>
-                </li>
-                <li class="mb-2">
-                  <a href="#" target="_blank" rel="noopener">Bootstrap 4</a>
-                </li>
-                <li class="mb-2">
-                  <a href="#" target="_blank" rel="noopener">Icons</a>
-                </li>
-                <li class="mb-2">
-                  <a href="#" target="_blank" rel="noopener">RFS</a>
-                </li>
-                <li class="mb-2">
-                  <a href="#" target="_blank" rel="noopener">Examples repo</a>
-                </li>
-              </ul>
-            </div>
+              <!-- Project -->
+              <div class="col-6 col-lg-2 mb-3">
+                <h5 class="ms-3" style="color: rgb(187, 220, 248)">Projects</h5>
+                <ul class="footer_lists">
+                  <li class="mb-2">
+                    <a href="#" target="_blank" rel="noopener">Bootstrap 5</a>
+                  </li>
+                  <li class="mb-2">
+                    <a href="#" target="_blank" rel="noopener">Bootstrap 4</a>
+                  </li>
+                  <li class="mb-2">
+                    <a href="#" target="_blank" rel="noopener">Icons</a>
+                  </li>
+                  <li class="mb-2">
+                    <a href="#" target="_blank" rel="noopener">RFS</a>
+                  </li>
+                  <li class="mb-2">
+                    <a href="#" target="_blank" rel="noopener">Examples repo</a>
+                  </li>
+                </ul>
+              </div>
 
-            <!-- COmmunilty -->
-            <div class="col-6 col-lg-2 mb-3">
-              <h5 class="ms-3" style="color: rgb(187, 220, 248)">Community</h5>
-              <ul class="footer_lists">
-                <li class="mb-2">
-                  <a href="#" target="_blank" rel="noopener">Issues</a>
-                </li>
-                <li class="mb-2">
-                  <a href="#" target="_blank" rel="noopener">Discussions</a>
-                </li>
-                <li class="mb-2">
-                  <a href="#" target="_blank" rel="noopener"
-                    >Corporate sponsors</a
-                  >
-                </li>
-                <li class="mb-2">
-                  <a href="#" target="_blank" rel="noopener">Open Collective</a>
-                </li>
-                <li class="mb-2">
-                  <a href="#" target="_blank" rel="noopener">Stack Overflow</a>
-                </li>
-              </ul>
+              <!-- COmmunilty -->
+              <div class="col-6 col-lg-2 mb-3">
+                <h5 class="ms-3" style="color: rgb(187, 220, 248)">
+                  Community
+                </h5>
+                <ul class="footer_lists">
+                  <li class="mb-2">
+                    <a href="#" target="_blank" rel="noopener">Issues</a>
+                  </li>
+                  <li class="mb-2">
+                    <a href="#" target="_blank" rel="noopener">Discussions</a>
+                  </li>
+                  <li class="mb-2">
+                    <a href="#" target="_blank" rel="noopener"
+                      >Corporate sponsors</a
+                    >
+                  </li>
+                  <li class="mb-2">
+                    <a href="#" target="_blank" rel="noopener"
+                      >Open Collective</a
+                    >
+                  </li>
+                  <li class="mb-2">
+                    <a href="#" target="_blank" rel="noopener"
+                      >Stack Overflow</a
+                    >
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
-        </div>
-      </footer>
+        </footer>
+      </div>
     </div>
     <!-- Bootstrap JavaScript Libraries -->
     <script
