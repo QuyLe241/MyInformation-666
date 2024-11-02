@@ -91,7 +91,9 @@
                     >
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link nav_links" href="#">Contact</a>
+                    <a class="nav-link nav_links" href="./pages/cvpage.html"
+                      >My CV</a
+                    >
                   </li>
                   <li class="nav-item dropdown">
                     <a
@@ -213,35 +215,42 @@
         <div class="infor">
           <div class="row d-flex justify-content-around mt-5 items_res">
             <div class="col-5 infor_items infor_item1 item_col1 item_res">
-              <a href="https://quy-le-samar.vercel.app/" target="_blank"
+              <a
+                href="https://lnq-fiverrproject-clone.vercel.app/"
+                target="_blank"
                 ><span>
-                  <i class="fa-regular fa-address-card me-2"></i>Portfolio</span
+                  <i class="fa-regular fa-address-card me-2"></i>Fiverr</span
                 >
-                <p class="mt-2 pb-3">Một trang web về giới thiệu bản thân.</p>
+                <p class="mt-2 pb-3">
+                  Một trang web về công việc. <br />
+                  Viết bằng ReactJS
+                </p>
               </a>
             </div>
             <div class="col-5 infor_items infor_item1 item_col2">
-              <a href="https://quy-le-samar.vercel.app/" target="_blank"
-                ><span><i class="fa-solid fa-user-tie me-2"></i>Samar</span>
-                <p class="mt-2 pb-3">Trang web có animations đẹp.</p>
+              <a href="https://shop-project8386.vercel.app/" target="_blank"
+                ><span><i class="fa-brands fa-shopify me-2"></i>Shoe Shop</span>
+                <p class="mt-2 pb-3">Trang web về giày.</p>
               </a>
             </div>
           </div>
           <div class="row d-flex justify-content-around mt-5 items_res">
             <div class="col-5 infor_items infor_item2 item_col1">
               <!--  -->
-              <a href="#" target="_blank"
-                ><span><i class="fa-solid fa-headphones me-2"></i>Music</span>
-                <p class="pb-5">Một trang web về âm nhạc.</p>
+              <!-- music icon
+               <i class="fa-solid fa-headphones me-2"></i>
+              -->
+              <a href="https://quy-le-samar.vercel.app/" target="_blank"
+                ><span> <i class="fa-solid fa-user-tie me-2"></i>Samar</span>
+                <p class="pb-5">Trang web có animations đẹp.</p>
               </a>
             </div>
             <div class="col-5 infor_items infor_item2 item_col2">
               <a href="#"
-                ><span><i class="fa-solid fa-swatchbook me-2"></i>Fiverr</span>
-                <p class="pb-3">
-                  Trang web về công việc viết bằng ReactJs. <br />
-                  Có nhiều chức năng hệ thống
-                </p>
+                ><span
+                  ><i class="fa-solid fa-swatchbook me-2"></i>Trang web 4</span
+                >
+                <p class="pb-3">Đang cập nhật...</p>
                 <!-- <p class="pb-3">Có nhiều chức năng hệ thống</p> -->
               </a>
             </div>
@@ -253,7 +262,7 @@
                   ><i class="fa-solid fa-people-group me-2"></i>Master
                   Work</span
                 >
-                <p class="pb-3">Một trang web về công việc của một team.</p>
+                <p class="pb-3"></p>
               </a>
             </div>
             <div class="col-5 infor_items infor_item3 item_col2">
@@ -264,6 +273,100 @@
             </div>
           </div>
         </div>
+
+        <!-- Skill -->
+        <div class="py-3 my-3">
+          <div class="mt-5">
+            <h3 class="text-center text-white">Skill</h3>
+          </div>
+          <div class="container mt-3">
+            <!-- Tabs điều hướng -->
+            <ul
+              class="nav nav-tabs d-flex justify-content-center"
+              id="myTab"
+              role="tablist"
+            >
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link active"
+                  id="home-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#home"
+                  type="button"
+                  role="tab"
+                  aria-controls="home"
+                  aria-selected="true"
+                >
+                  All
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link"
+                  id="profile-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#profile"
+                  type="button"
+                  role="tab"
+                  aria-controls="profile"
+                  aria-selected="false"
+                >
+                  Front-end
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link"
+                  id="contact-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#contact"
+                  type="button"
+                  role="tab"
+                  aria-controls="contact"
+                  aria-selected="false"
+                >
+                  Back-end
+                </button>
+              </li>
+            </ul>
+
+            <!-- Nội dung các tab -->
+
+            <div
+              class="tab-content d-flex justify-content-center"
+              id="myTabContent"
+            >
+              <div
+                class="tab-pane fade show active"
+                id="home"
+                role="tabpanel"
+                aria-labelledby="home-tab"
+              >
+                <h3>Trang Chủ</h3>
+                <p>Đây là nội dung của tab Trang Chủ.</p>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="profile"
+                role="tabpanel"
+                aria-labelledby="profile-tab"
+              >
+                <h3>Thông Tin</h3>
+                <p>Đây là nội dung của tab Thông Tin.</p>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="contact"
+                role="tabpanel"
+                aria-labelledby="contact-tab"
+              >
+                <h3>Liên Hệ</h3>
+                <p>Đây là nội dung của tab Liên Hệ.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--  -->
         <!-- </div> -->
         <footer class="bd-footer py-4 py-md-5 mt-5">
           <div class="container py-4 py-md-5 px-4 px-md-3 text-body-secondary">
@@ -277,8 +380,14 @@
                 </a>
                 <ul class="list-unstyled small footer_lists">
                   <li class="mb-2" style="color: rgb(0, 106, 255)">
-                    Designed and code By Lê Nhất Quý with Bootstrap 5, HTML, Css
-                    and JavaScript.
+                    With HTML, Css, JavaScript,
+                  </li>
+                  <li class="mb-2" style="color: rgb(0, 106, 255)">
+                    Bootstrap, taildwindcss,
+                  </li>
+                  <li class="mb-2" style="color: rgb(0, 106, 255)">
+                    ReactJS, Api, React-router-dom, Redux-toolkit, Github, Sass,
+                    Ant Design
                   </li>
                   <li class="mb-2">VietNam</li>
                   <li class="mb-2">HoChiMinh City</li>
@@ -290,19 +399,19 @@
                 <h5 class="ms-3" style="color: rgb(187, 220, 248)">Links</h5>
                 <ul class="footer_lists">
                   <li class="mb-2"><a href="/">Home</a></li>
-                  <li class="mb-2"><a href="#">Docs</a></li>
-                  <li class="mb-2"><a href="#">Examples</a></li>
+                  <li class="mb-2"><a href="#">Linkedln</a></li>
+                  <li class="mb-2"><a href="#">Facebook</a></li>
                   <li class="mb-2">
-                    <a href="#">Icons</a>
+                    <a href="#">Instagram</a>
                   </li>
                   <li class="mb-2">
-                    <a href="#">Themes</a>
+                    <a href="#">Tiktok</a>
                   </li>
                   <li class="mb-2">
                     <a href="#">Blog</a>
                   </li>
                   <li class="mb-2">
-                    <a href="#" target="_blank" rel="noopener">Swag Store</a>
+                    <a href="#" target="_blank" rel="noopener">Youtube</a>
                   </li>
                 </ul>
               </div>

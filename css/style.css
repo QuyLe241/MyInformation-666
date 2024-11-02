@@ -83,7 +83,42 @@
     /* transform: matrix3d(-3px); */
 }
 
+/*      Skill */
+.container .nav-tabs .nav-item {
+    font-size: 20px;
+    font-weight: 700;
+}
 
+.container .nav-tabs .nav-item .active {
+    color: rgb(210, 228, 245);
+}
+
+.container .nav-tabs .nav-item .nav-link:hover {
+    border: none;
+    color: rgb(210, 228, 245);
+}
+
+.container .nav-tabs .nav-item .nav-link:active {
+    border: none;
+}
+
+.container .nav-tabs .nav-item .nav-link:focus {
+    border: none;
+}
+
+.container .nav-tabs .nav-item .nav-link:focus-visible {
+    border: none;
+}
+
+.container .nav-tabs {
+    border: none;
+}
+
+.container .nav-tabs .active{
+    border: none;
+    background-color: transparent;
+    
+}
 
 
 /*  Transition drop_items */
@@ -109,7 +144,8 @@
 
 /*  infor items */
 .infor .infor_items {
-    height: 100px;
+    /* min-height: 100px; */
+    height: 120px;
     border-radius: 10px;
     box-shadow: 3px 3px 8px rgb(142, 142, 147);
     transition: all 0.6s;
