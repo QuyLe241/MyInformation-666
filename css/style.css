@@ -215,6 +215,70 @@
     /* padding: 10px 15px; */
 }
 
+/*      slider */
+.list .item img {
+    height: 80px;
+    padding: 0 8px;
+}
+
+.slider {
+    overflow: hidden;
+    /* position: relative; 
+    transition: opacity 0.5s ease; */
+    /* opacity: 0.5; */
+    opacity: 0.9;
+    position: relative;
+}
+
+.slider .list .item img{
+    border-radius: 15px;
+}
+
+.slider::before {
+    content: "";
+    position: absolute;
+    /* background: rgb(11,39,86); */
+    /* background: linear-gradient(90deg, rgba(11,39,86,1) 0%, rgba(11,39,86,1) 74%, rgba(38,70,123,1) 100%); */
+    /* background: linear-gradient(to right,  rgba(255,255,255,0.3) 0%,rgba(255,255,255,0) 100%); */
+    background: linear-gradient(to right,  rgba(134, 134, 232, 0.3) 0%,rgba(37, 8, 8, 0) 100%);
+    top: 0;
+    left: 0;
+    height: 80px;
+    width: 50px;
+    z-index: 2;
+    /* opacity: 0.3; */
+}
+.slider::after {
+    content: "";
+    position: absolute;
+    /* background: rgb(11,39,86); */
+    /* background: linear-gradient(90deg, rgba(11,39,86,1) 0%, rgba(11,39,86,1) 74%, rgba(38,70,123,1) 100%); */
+    /* background: linear-gradient(to right,  rgba(255,255,255,0.5) 0%,rgba(255,255,255,0) 100%); */
+    background: linear-gradient(to right,  rgba(83, 83, 236, 0.3) 0%,rgba(218, 214, 214, 0) 100%);
+    /* background: linear-gradient(to right,  rgba(255,255,255,0.5) 0%,rgba(74, 98, 233, 0) 100%); */
+    top: 0;
+    right: 0;
+    height: 80px;
+    width: 50px;
+    transform: rotateZ(180deg);
+    z-index: 2;
+    /* opacity: 0.3; */
+}
+
+.list {
+    /* overflow: hidden; */
+    animation: slide 120s infinite linear;
+}
+
+
+
+/* .list {
+    white-space: nowrap;
+} */
+
+/* slider */
+
+
 
 /*      animation
 Keyframes 
@@ -255,6 +319,15 @@ Keyframes
     }
 }
 
+@keyframes slide {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateX(calc(-100% * 2.5));
+    }
+}
+
 .infor .item_col1 {
     animation: move1;
     /* transition: all 1s; */
@@ -270,7 +343,6 @@ Keyframes
     animation-iteration-count: calc();
 
 }
-
 
 
 
