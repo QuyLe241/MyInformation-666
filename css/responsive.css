@@ -66,6 +66,10 @@
         height: 150px;
     }
 
+    .content_skill span{
+        font-size: 16px;
+    }
+
     /* .logo {
         position: fixed;
     } */
