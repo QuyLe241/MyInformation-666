@@ -78,6 +78,13 @@
         animation: slide 60s infinite linear;
     }    
 
+    #backToTop {
+        bottom: 10px; /* Place the button at the bottom of the page */
+        right: 10px; /* Place the button 30px from the right */    
+        padding: 10px; /* Some padding */
+        
+    }
+
     @keyframes slide {
         from {
             transform: translateY(0);

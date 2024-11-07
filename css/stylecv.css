@@ -1,0 +1,12 @@
+.homePage a {
+    color: #000;
+    text-decoration: none;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 5px 0;
+}
+
+.homePage a:hover {
+    color: #110ca0;
+}
