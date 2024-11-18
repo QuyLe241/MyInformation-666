@@ -10,3 +10,22 @@
 .homePage a:hover {
     color: #110ca0;
 }
+
+.link_cv {
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+.link_cv a{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 600;
+    background-color: rgb(13, 195, 134);
+    padding: 8px 15px;
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+
+.link_cv a:hover {
+    background-color: rgb(28, 223, 158);
+}
