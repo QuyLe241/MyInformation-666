@@ -1,7 +1,19 @@
 .bodyweb {
     /* bg2 */
+    /* width: 100%;
+    overflow: hidden; */
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(7,38,146,1) 71%, rgba(4,82,245,1) 100%);
+}
+
+.animate_body {
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to right, #002b9d, #34ffea);
+    animation: animateLan1 2s linear infinite;
 }
 
 /*  Logo */
@@ -85,6 +97,7 @@
 }
 
 .container_dots_ani .dot {
+    /* transform: translateY(300px); */
     z-index: 1;
     /* position: absolute; */
     width: 15px;
@@ -103,19 +116,86 @@
     transform: translateY(0) scale(0);
 }
 100% {
-    transform: translateY(-500px) scale(0.5);
+    transform: translateY(-399px) scale(0.3);
 }
 }
 /* style dots animation */
 
 
 /*  style set_language */
-.set_language {
-    z-index: 10;
-    text-decoration: none;
-    /* color: white; */
+
+.div_set_language {
+    /* position: relative; */
+    /* margin-top: 20px; */
 }
 
+.set_language {
+    position: relative;
+    /* overflow: hidden; */
+    border-radius: 8px;
+    /* width: 80px; */
+    z-index: 10;
+    text-decoration: none;
+    color: #34ffea;
+    background-color: #001632;
+    font-size: 20px;
+    padding: 20px 50px;
+    font-weight: 700;
+    box-shadow: 0 20px 50px rgba(255 255 255 / 5%);
+}
+
+.set_language::before {
+    z-index: 20;
+    position: absolute;
+    content: "";
+    width: 50%;
+    top: 2px;
+    left: 2px;
+    bottom: 2px;
+    background-color: rgb(142, 255, 240 / 10%);
+}
+
+.set_language p {
+    margin: 0;
+}
+
+.set_lan_style img {
+    /* width: 30px; */
+    height: 30px;
+    border-radius: 3px;
+}
+
+.set_lan_style p {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+
+.set_language span:nth-child(1){
+    /* display: block; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(to right, #002b9d, #34ffea);
+    animation: animateLan1 2s linear infinite;
+}
+@keyframes animateLan1 {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+.container_languages p {
+    color: rgb(70, 252, 176);
+    font-size: 18px;
+    font-weight: 600;
+    /* margin-bottom: 0px; */
+}
 
 .show {
     transition: all 0.5s;
