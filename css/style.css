@@ -131,8 +131,9 @@
 
 .set_language {
     position: relative;
-    /* overflow: hidden; */
-    border-radius: 8px;
+    display: flex;
+    overflow: hidden;
+    border-radius: 5px;
     /* width: 80px; */
     z-index: 10;
     text-decoration: none;
@@ -142,6 +143,14 @@
     padding: 20px 50px;
     font-weight: 700;
     box-shadow: 0 20px 50px rgba(255 255 255 / 5%);
+    transition: all 0.5s;
+}
+
+.set_language:hover {
+    /* border: #34ffea solid 2px; */
+    /* border-radius: 8px; */
+    /* background-color: #043370; */
+    box-shadow: 1px 5px 10px rgba(0, 255, 128, 0.3), 0px 0px 0px 5px rgba(0, 255, 128, 0.2);
 }
 
 .set_language::before {
