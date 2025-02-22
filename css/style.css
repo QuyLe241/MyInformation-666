@@ -86,15 +86,16 @@
 }
 /* style intro */
 
-/* style dots animation */
-.container_dots_ani {
-    /* position: relative; */
-    /* display: flex; */
+/* style icon social */
+.icon_social .social_item svg {
+    width: 30px;
+    height: 30px;
 }
 
-.dots_ani {
-    /* position: relative; */
-}
+
+/* style icon social */
+
+/* style dots animation */
 
 .container_dots_ani .dot {
     /* transform: translateY(300px); */
